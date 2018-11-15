@@ -1,4 +1,4 @@
-# httclient和tomcat进行https双向认证
+# httpclient和tomcat进行https双向认证
 
 根据tomat.cer 生成tomat.truststore文件  
 
