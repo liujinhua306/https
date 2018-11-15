@@ -11,5 +11,5 @@ openssl pkcs12 -export -clcerts -in ./users/client.crt -inkey ./users/client.key
 keytool -keystore tomcat.truststore -keypass 123456 -storepass 123456 -alias CA -import -trustcacerts -file client.crt
 
 
-ps:java调用ssl请求必须将证书转换成jks格式或者keystore格式，受信任的证书为
+ps:java调用ssl请求必须将证书转换成jks格式或者keystore格式，受信任的证书为truststore文件。
 
